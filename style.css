@@ -1,0 +1,326 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+.g {
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    width: 95%;
+    margin: 0 auto; /* Centering the container */
+}
+
+.g > div {
+    flex: 1; /* Corrected from 'float: 1' to 'flex: 1' */
+    transition: all 1s;
+}
+
+.g > div:nth-child(1) {
+    background: url("./Pic/eren5.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.g > div:nth-child(2) {
+    background: url("./Pic/eren4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.g > div:nth-child(3) {
+    background: url("./Pic/eren1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.g > div:nth-child(4) {
+    background: url("./Pic/eren2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.g > div:nth-child(5) {
+    background: url("./Pic/eren3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.g > div:nth-child(5) {
+    background: url("./Pic/eren4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.g > div:hover {
+    flex: 6;
+}
+
+
+
+
+
+
+.h {
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    width: 95%;
+    margin: 0 auto; /* Centering the container */
+}
+
+.h > div {
+    flex: 1; /* Corrected from 'float: 1' to 'flex: 1' */
+    transition: all 1s;
+}
+
+.h > div:nth-child(1) {
+    background: url("./Pic/gojo1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.h > div:nth-child(2) {
+    background: url("./Pic/gojo4.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.h > div:nth-child(3) {
+    background: url("./Pic/gojo1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.h > div:nth-child(4) {
+    background: url("./Pic/gojo2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.h > div:nth-child(5) {
+    background: url("./Pic/gojo3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.h > div:hover {
+    flex: 6;
+}
+
+
+
+.home {
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    width: 95%;
+    margin: 0 auto; /* Centering the container */
+}
+
+
+.home > div {
+    flex: 1; /* Corrected from 'float: 1' to 'flex: 1' */
+    transition: all 1s;
+}
+
+.home > div:nth-child(1) {
+    background: url("./Pic/homelander3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home > div:nth-child(2) {
+    background: url("./Pic/homelander2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.home > div:nth-child(3) {
+    background: url("./Pic/homelander1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.home > div:hover {
+    flex: 6;
+}
+
+
+
+
+.itache {
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    width: 95%;
+    margin: 0 auto; /* Centering the container */
+}
+
+
+.itache > div {
+    flex: 1; /* Corrected from 'float: 1' to 'flex: 1' */
+    transition: all 1s;
+}
+
+.itache > div:nth-child(1) {
+    background: url("./Pic/itache1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.itache > div:nth-child(2) {
+    background: url("./Pic/itache3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.itache > div:nth-child(3) {
+    background: url("./Pic/itache2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.itache > div:hover {
+    flex: 6;
+}
+
+
+
+
+
+.obito {
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    width: 95%;
+    margin: 0 auto; /* Centering the container */
+}
+
+
+.obito > div {
+    flex: 1; /* Corrected from 'float: 1' to 'flex: 1' */
+    transition: all 1s;
+}
+
+.obito > div:nth-child(1) {
+    background: url("./Pic/obito1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.obito > div:nth-child(2) {
+    background: url("./Pic/obito3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.obito > div:nth-child(3) {
+    background: url("./Pic/obito2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.obito > div:hover {
+    flex: 6;
+}
+
+
+
+.r {
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    width: 95%;
+    margin: 0 auto; /* Centering the container */
+}
+
+
+.r > div {
+    flex: 1; /* Corrected from 'float: 1' to 'flex: 1' */
+    transition: all 1s;
+}
+
+.r > div:nth-child(1) {
+    background: url("./Pic/rcb.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.r > div:nth-child(2) {
+    background: url("./Pic/rolex.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.r > div:hover {
+    flex: 6;
+}
+
+
+
+
+
+.ss {
+    display: flex;
+    gap: 1rem;
+    height: 300px;
+    width: 95%;
+    margin: 0 auto; /* Centering the container */
+}
+
+
+.ss > div {
+    flex: 1; /* Corrected from 'float: 1' to 'flex: 1' */
+    transition: all 1s;
+}
+
+.ss > div:nth-child(1) {
+    background: url("./Pic/sasuke1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ss > div:nth-child(2) {
+    background: url("./Pic/simbu1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ss > div:nth-child(3) {
+    background: url("./Pic/simbu2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ss > div:nth-child(4) {
+    background: url("./Pic/simbu3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.ss > div:nth-child(5) {
+    background: url("./Pic/spidy.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.ss > div:nth-child(6) {
+    background: url("./Pic/spidy2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.ss > div:hover {
+    flex: 6;
+}
